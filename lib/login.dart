@@ -83,15 +83,15 @@ class _LoginState extends State<Login> {
                       setState(() {
                         print(user.text); ///IMPRIME EN TERMINAL LOS VALORES
                         print(pass.text);
-                        if(user.text == 'alejandro' &&
-                        pass.text == '123456'){
+                        //if(user.text == 'alejandro' &&
+                        //pa ss.text == '123456'){
                           //MANDA A OTRA VISTA
                           Navigator.of(context).push(
                               MaterialPageRoute(
                                   builder: (context) => const Home()));
-                        } else {
-                          bandera = true;
-                        }
+                        //} else {
+                          //bandera = true;
+                        //}
                       });
                     }, // FUNCIÓN INTERNA
                     child: const Text(
